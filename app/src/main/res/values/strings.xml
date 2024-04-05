@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">P1 History App</string>
+    <string name="button">Generate Fact</string>
+    <string name="button2">Clear</string>
+    <string name="textHint">Enter Your Age Here</string>
+    <string name="prompt">Enter Your Age</string>
+    <string name="factTextView">Fact Generator</string>
+</resources>
