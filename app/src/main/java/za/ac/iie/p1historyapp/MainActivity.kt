@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
             factTextView.text = generatedText
 
             if (enterAge != null) {
-                val generatedText = generateText(enterAge)
+                val generatedText = generateText()
                 factTextView.text = generatedText
             } else {
                 factTextView.text = "Invalid input!"
@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
         var message : string = ""
         var age : Int
 
-        message = factTextView().text.toString().toInt()
+        message = age().text.toString().toInt()
 
         if(age > 0 && age <= 10)
         {
@@ -58,12 +58,12 @@ class MainActivity : AppCompatActivity() {
         }
         else if(age > 21 && age <= 30)
         {
-            message = "Famous for his I have a dream speech, Martin Luther king died at 30."
+            message = "Famous for his 'I have a dream' speech, Martin Luther king died at 30."
 
         }
         else if(age > 31 && age <= 40)
         {
-            message = "Malcom X,who died at 39, was an islamic spokesperson in 50s and 60s."
+            message = "Malcom X,who died at 39, was an islamic spokesperson in the 50s and 60s."
 
         }
         else if(age > 41 && age <= 50)
